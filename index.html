@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programming-hero-cloned</title>
+
+    <!-- bootstrap-css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom-css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header-area -->
+    <header class="bg-primary pb-5">
+      <div class="container pb-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <div class="d-flex">
+                <div class="hero-nav-icon mx-5">
+                  <a href="#"><img src="images/p_hero-removebg-preview.png" alt="" /></a>
+                  <a class="text-white hero-text fw-bold" href="#">Programming Hero</a>
+                </div>
+                <div class="d-flex">
+                  <button type="button" class="btn hero-button fw-bold text-white">
+                    My Classes
+                  </button>
+
+                  <button type="button" class="btn">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="bi bi-bell mx-3"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"
+                      />
+                    </svg>
+                  </button>
+
+                  <button type="button" class="btn">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="bi bi-cart2 mx-1"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                      />
+                    </svg>
+                  </button>
+
+                  <button type="button" class="btn">
+                    <img class="login-image" src="images/fgsadhg-removebg-preview (1).png" alt="" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- slider-area -->
+
+      <section class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row bg-primary p-5 d-flex align-items-center">
+                <div class="col-8">
+                  <h1 class="fw-bolder display-5 text-white py-3">
+                    Learn Effectively that will take you towards your goal
+                  </h1>
+                  <p class="fw-bolder py-3 text-white">
+                    ভিডিও কনটেন্ট বা কোর্স অনেকভাবেই ম্যানেজ করতে পারবে। কিন্তু সেটাকে ধরে ধরে
+                    ইন্টার্ন/ফুলটাইম চাকরি পর্যন্ত নিয়ে যাওয়ার জন্য একটা ইফেক্টিভ এবং এনজয়েবল
+                    লার্নিং এনভায়রনমেন্ট শুধু এই কোর্সেই পাবে।
+                  </p>
+
+                  <button class="btn rounded-pill slider-button" type="button">
+                    <span class="button-text">Continue Course</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-arrow-right-circle-fill indicator"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div class="col-4">
+                  <img
+                    src="https://web.programming-hero.com/public/1622955529676.png"
+                    class="d-block w-100 slider-img"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row bg-primary p-5 d-flex align-items-center">
+                <div class="col-8">
+                  <h1 class="fw-bolder display-5 text-white py-3">
+                    Complete Web Development Course with Jhankar Mahbub
+                  </h1>
+                  <p class="fw-bolder py-3 text-white">
+                    একদম জিরো থেকে, কোন প্রকার পূর্ব অভিজ্ঞতা ছাড়াই একজন প্রফেশনাল ওয়েব ডেভেলপার
+                    হওয়ার জন্য যা যা লাগবে তার সবকিছুই সহজ করে গিলিয়ে খাওয়ানো হবে এই কোর্সে।
+                  </p>
+
+                  <button class="btn rounded-pill slider-button" type="button">
+                    <span class="button-text">Continue Course</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-arrow-right-circle-fill indicator"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div class="col-4">
+                  <img
+                    src="https://web.programming-hero.com/public/1622955725643.png"
+                    class="d-block w-100 slider-img"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row bg-primary p-5 d-flex align-items-center">
+                <div class="col-8">
+                  <h1 class="fw-bolder display-5 text-white py-3">
+                    Build 11 professional projects while learning.
+                  </h1>
+                  <p class="fw-bolder py-3 text-white">
+                    কোর্সের অংশ হিসেবে হাতে কলমে নতুন এগারোটা প্রজেক্ট (এসাইনমেন্ট) করবে তুমি। আমরা
+                    তোমার প্রজেক্ট এর ফিডব্যাক দিবো। মার্কস দিবো। যাতে প্রফেশনাল ওয়েবসাইট বানিয়েই
+                    চাকরির ইন্টারভিউতে যেতে পারো।
+                  </p>
+
+                  <button class="btn btn-danger rounded-pill slider-button" type="button">
+                    <span class="button-text">Continue Course</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-arrow-right-circle-fill indicator"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div class="col-4">
+                  <img
+                    src="	https://web.programming-hero.com/public/1622955835022.png"
+                    class="d-block w-100 slider-img"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row bg-primary p-5 d-flex align-items-center">
+                <div class="col-8">
+                  <h1 class="fw-bolder display-5 text-white py-3">
+                    Got stuck? We will always be there for you.
+                  </h1>
+                  <p class="fw-bolder py-3 text-white">
+                    ২৪ ঘন্টার মধ্যে কোর্স রিলেটেড সকল প্রশ্নের উত্তর দেয়ার জন্য সাতজন প্রফেশনাল ওয়েব
+                    ডেভেলপার স্ট্যান্ডবাই থাকে (ছুটির দিন বাদে)। প্রতিদিন তিনবার গুগল মিট এ
+                    স্ক্রিনশেয়ার করে সমস্যা সমাধান করতে পারবে। 🥊
+                  </p>
+
+                  <button class="btn btn-danger rounded-pill slider-button" type="button">
+                    <span class="button-text">Continue Course</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-arrow-right-circle-fill indicator"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div class="col-4">
+                  <img
+                    src="https://web.programming-hero.com/public/1622956051167.png"
+                    class="d-block w-100 slider-img"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row bg-primary p-5 d-flex align-items-center">
+                <div class="col-8">
+                  <h1 class="fw-bolder display-5 text-white py-3">
+                    We will ensure our graduates are world-class web developer.
+                  </h1>
+                  <p class="fw-bolder py-3 text-white">
+                    প্রত্যেক ভিডিও শেষে প্রশ্ন থাকবে। মডিউল শেষে ফাইনাল কুইজ থাকবে। প্রত্যেক
+                    মাইলস্টোন এ টেক এওয়ে এসাইনমেন্ট, প্রাকটিস প্রজেক্ট থাকবে। হোমওয়ার্ক প্রফেশনাল
+                    লেভেলের না হলে, ফিডব্যাক দেয়া হবে।
+                  </p>
+
+                  <button class="btn btn-danger rounded-pill slider-button" type="button">
+                    <span class="button-text">Continue Course</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-arrow-right-circle-fill indicator"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div class="col-4">
+                  <img
+                    src="	https://web.programming-hero.com/public/1622956144372.png"
+                    class="d-block w-100 slider-img"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row bg-primary p-5 d-flex align-items-center">
+                <div class="col-8">
+                  <h1 class="fw-bolder display-5 text-white py-3">
+                    Master everything you need to become a web developer.
+                  </h1>
+                  <p class="fw-bolder py-3 text-white">
+                    ফ্রন্টএন্ড (HTML, CSS, JavaScript, ES6, bootstrap, React, charting), ব্যাকএন্ড
+                    (node, express, API), ডাটাবেজ (mongodb), ক্রোম ডেভ টুল, হোস্টিং, গিটহাব,
+                    ইন্টারভিউ প্রবলেম সলভিং - সবকিছু!
+                  </p>
+
+                  <button class="btn btn-danger rounded-pill slider-button" type="button">
+                    <span class="button-text">Continue Course</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-arrow-right-circle-fill indicator"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div class="col-4">
+                  <img
+                    src="	https://web.programming-hero.com/public/1622956215261.png"
+                    class="d-block w-100 slider-img"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row bg-primary p-5 d-flex align-items-center">
+                <div class="col-8">
+                  <h1 class="fw-bolder display-5 text-white py-3">
+                    Start your dream today. Conquer the world.
+                  </h1>
+                  <p class="fw-bolder py-3 text-white">
+                    সো, এক্ষুণি কোর্সে এনরোল করে ঝাঁপিয়ে পড়ো। তোমার লাইফের নতুন মিশন। হার্ডওয়ার্ক
+                    করবে তুমি। গাইডলাইন আর সাপোর্ট দিবো আমরা। পারলে ঠেকা!
+                  </p>
+
+                  <button class="btn btn-danger rounded-pill slider-button" type="button">
+                    <span class="button-text">Continue Course</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-arrow-right-circle-fill indicator"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div class="col-4">
+                  <img
+                    src="https://web.programming-hero.com/public/1622956286239.png"
+                    class="d-block w-100 slider-img"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </header>
+
+    <!-- main-section -->
+    <main>
+      <section class="next-bach container mb-5">
+        <div class="next-bach-text">
+          <div class="mx-auto py-4 pb-3">
+            <h2 class="text-center fw-bolder section-title">পরবর্তী ব্যাচের সময় সূচি</h2>
+          </div>
+          <div class="d-flex row mt-5">
+            <div class="col-6">
+              <h6 class="mb-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-calendar-minus-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zM6 10h4a.5.5 0 0 1 0 1H6a.5.5 0 0 1 0-1z"
+                  />
+                </svg>
+                রেজিস্ট্রেশন শুরু: <strong> ডিসেম্বর ১০, ২০২১ (শুক্রবার)</strong>
+              </h6>
+              <h6 class="mb-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-bookmark-star-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zM8.16 4.1a.178.178 0 0 0-.32 0l-.634 1.285a.178.178 0 0 1-.134.098l-1.42.206a.178.178 0 0 0-.098.303L6.58 6.993c.042.041.061.1.051.158L6.39 8.565a.178.178 0 0 0 .258.187l1.27-.668a.178.178 0 0 1 .165 0l1.27.668a.178.178 0 0 0 .257-.187L9.368 7.15a.178.178 0 0 1 .05-.158l1.028-1.001a.178.178 0 0 0-.098-.303l-1.42-.206a.178.178 0 0 1-.134-.098L8.16 4.1z"
+                  />
+                </svg>
+                রেজিস্ট্রেশন শেষ: <strong> ডিসেম্বর ২৪, ২০২১ (শুক্রবার)</strong>
+              </h6>
+            </div>
+            <div class="col-6">
+              <h6 class="mb-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-bell-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"
+                  />
+                </svg>
+                ব্যাচের ওরিয়েন্টশন: <strong> ডিসেম্বর ২৮, ২০২১ (মঙ্গলবার)</strong>
+              </h6>
+              <h6 class="mb-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-tv-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM2 2h12s2 0 2 2v6s0 2-2 2H2s-2 0-2-2V4s0-2 2-2z"
+                  />
+                </svg>
+                ক্লাস শুরু: <strong> ডিসেম্বর ৩১, ২০২১(শুক্রবার)</strong>
+              </h6>
+            </div>
+          </div>
+          <div class="next-bach-button d-flex mt-4">
+            <h6 class="text-center text-white mx-4 next-bach-button-text">
+              <strong
+                >তুমি ৫ম ব্যাচে এনরোল করতে আগ্রহি হলে, ওয়েবসাইটে রেজিস্ট্রেশন করে রাখো</strong
+              >
+            </h6>
+
+            <button class="btn btn-danger rounded-pill slider-button" type="button">
+              <span class="button-text">Continue Course</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-right-circle-fill indicator"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- cource-details -->
+      <section class="container-fluid bg-white pt-5 mb-5">
+        <div class="container">
+          <h3 class="section-title text-center">এই কোর্স থেকে কি কি শিখতে পারবে:</h3>
+          <div class="row mt-5">
+            <div class="col-5 cource-video-section">
+              <div class="bach-4-video">
+                <img src="images/bach-4.png" alt="" />
+              </div>
+              <div class="register text-center my-3">
+                <h5>Registration is Closed</h5>
+              </div>
+              <div class="d-flex mini-section">
+                <div class="d-flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-play-circle-fill mt-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                    />
+                  </svg>
+                  <p class="mx-1">660 videos</p>
+                </div>
+                <div class="d-flex mx-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-calendar-week-fill mt-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zM9.5 7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm3 0h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zM2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z"
+                    />
+                  </svg>
+                  <p class="mx-1">300 Quizes</p>
+                </div>
+                <div class="d-flex mx-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-award-fill mt-1"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"
+                    />
+                    <path
+                      d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"
+                    />
+                  </svg>
+                  <p class="mx-1">11 Assignment</p>
+                </div>
+              </div>
+              <div>
+                <h2 class="prize fw-bolder">৳ 5500</h2>
+              </div>
+            </div>
+            <div class="col-7 mx-3">
+              <div class="row">
+                <div class="col-6">
+                  <div class="d-flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="100"
+                      height="24"
+                      fill="currentColor"
+                      class="bi bi-check-square tick-bg"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
+                      />
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.235.235 0 0 1 .02-.022z"
+                      />
+                    </svg>
+                    <p class="mx-2 tick-text">ফটাফট কয়েকটা ভিডিও দেখে HTML, CSS শিখে ফটাফট চমৎকার দুইটা ওয়েবসাইট বানিয়ে ফেলবে। এবং সেগুলার লিংক যেকারো সাথে শেয়ার করে ভাব পেটাতে পারবে।</p>
+                  </div>
+                  <div class="d-flex">
+                    <div class="d-flex">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="93"
+                        height="24"
+                        fill="currentColor"
+                        class="bi bi-check-square tick-bg"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
+                        />
+                        <path
+                          d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.235.235 0 0 1 .02-.022z"
+                        />
+                      </svg>
+                      <p class="mx-2 tick-text">জাভাস্ক্রিপ্টের ছয়টা মেইন জিনিস, জাভাস্ক্রিপ্ট দিয়ে প্রবলেম সলভিং, ইন্টারভিউ এর প্রশ্ন-উত্তর। এমনকি ES6 দিয়ে তোমার নলেজকে যোগোপযোগী করে তুলবে</p>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="d-flex">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="87"
+                        height="24"
+                        fill="currentColor"
+                        class="bi bi-check-square tick-bg"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
+                        />
+                        <path
+                          d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.235.235 0 0 1 .02-.022z"
+                        />
+                      </svg>
+                      <p class="mx-2 tick-text">সার্ভার সম্পর্কে ধারণা, REST API কল করে JSON ডাটা লোড করা, node, mongodb (database), chrome devtool দিয়ে ডিবাগিং সম্পর্কে ধারণা দেয়া হবে।</p>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="d-flex">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="100"
+                        height="24"
+                        fill="currentColor"
+                        class="bi bi-check-square tick-bg"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
+                        />
+                        <path
+                          d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.235.235 0 0 1 .02-.022z"
+                        />
+                      </svg>
+                      <p class="mx-2 tick-text">React দিয়ে সম্পূর্ণ প্রফেশনাল ওয়েবসাইট। ডাটাবেজ, সার্ভার সাইড, হোস্টিং, পেমেন্ট সিস্টেম, লগইন, রাউটিং দিয়ে ১০০% ক্লায়েন্ট-রেডি ওয়েবসাইট বানিয়ে দেখানো হবে।</p>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="d-flex">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="110"
+                        height="23"
+                        fill="currentColor"
+                        class="bi bi-check-square tick-bg"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
+                        />
+                        <path
+                          d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.235.235 0 0 1 .02-.022z"
+                        />
+                      </svg>
+                      <p class="mx-2 tick-text">সর্বমোট ১১টা প্রজেক্ট তুমি নিজে করবে। আমাদের হেল্প নিয়ে। এছাড়াও ৫টা ওয়েবসাইট আমরা দেখিয়ে দিবো। যেগুলা করতে করতে তুমি নিজের অজান্তেই পরিপূর্ন ওয়েব ডেভেলপার হয়ে উঠবে।</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="94"
+                      height="24"
+                      fill="currentColor"
+                      class="bi bi-check-square tick-bg"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
+                      />
+                      <path
+                        d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.235.235 0 0 1 .02-.022z"
+                      />
+                    </svg>
+                    <p class="mx-2 tick-text">বুটস্ট্রাপ (bootstrap) নামক পপুলার ফ্রেমওয়ার্ক এর খুঁটিনাটি ভাজা ভাজা করে ফেলবে। তারপর সেটা দিয়েও দুইটা ই-কমার্স ওয়েবসাইট বানিয়ে ফেলবে। কি মজা !</p>
+                  </div>
+                  <div class="d-flex">
+                    <div class="d-flex">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="91"
+                        height="24"
+                        fill="currentColor"
+                        class="bi bi-check-square tick-bg"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
+                        />
+                        <path
+                          d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.235.235 0 0 1 .02-.022z"
+                        />
+                      </svg>
+                      <p class="mx-2 tick-text">জাভাস্ক্রিপ্ট দিয়ে ব্যাংকের deposit, withdraw এর লাইভ ক্যালকুলেশন থাকছে। তারপরই থাকছে ই-কমার্স সাইটের শপিং কার্টের হিসাব-নিকাশ করার সিস্টেম</p>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="d-flex">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="105"
+                        height="23"
+                        fill="currentColor"
+                        class="bi bi-check-square tick-bg"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
+                        />
+                        <path
+                          d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.235.235 0 0 1 .02-.022z"
+                        />
+                      </svg>
+                      <p class="mx-2 tick-text">কোর্সের সবচেয়ে গুরুত্বপূর্ণ দিক হচ্ছে দুনিয়ার সবচেয়ে বেশি চাকরি যে জাভাস্ক্রিপ্ট ফ্রেমওয়ার্ক এ (React), সেটা দিয়ে পরিপূৰ্ণ একটা ওয়েবসাইট একদম শূন্য থেকে শেষ পর্যন্ত দেখানো হয়েছে।</p>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="d-flex">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="95"
+                        height="24"
+                        fill="currentColor"
+                        class="bi bi-check-square tick-bg"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
+                        />
+                        <path
+                          d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.235.235 0 0 1 .02-.022z"
+                        />
+                      </svg>
+                      <p class="mx-2 tick-text">কাজের প্রয়োজনে Firebase Authentication, TypeScript, Sass, Tailwind, গুগল ম্যাপ api সহ এমন আরো অসংখ্য প্রয়োজনীয় টুলস এর সাথে পরিচয় করিয়ে দেয়া হবে।</p>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="d-flex">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="155"
+                        height="23"
+                        fill="currentColor"
+                        class="bi bi-check-square tick-bg"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
+                        />
+                        <path
+                          d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.235.235 0 0 1 .02-.022z"
+                        />
+                      </svg>
+                      <p class="mx-2 tick-text">এনরোল করার ১২ সপ্তাহের মধ্যে পুরা কোর্স সিরিয়াসলি কমপ্লিট কারীদের নিয়ে আমরা তৈরি করবো Super Charged Interviewee Club (SCIC) সিক্রেট ক্লাব। যাদের স্পেশাল ইন্টারভিউ ট্রেনিং দিয়ে রেজুমি পাঠিয়ে দিবো বিভিন্ন কোম্পানিতে ইন্টার্ন বা ডেভেলপার হিসেবে চাকরি পাওয়ার জন্য।</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="row">
+                  <p>তবে যারা একটু ফাঁকিবাজ তাদের জন্য দুঃসংবাদ হচ্ছে। প্রত্যেক ভিডিও এর পরে প্রশ্ন থাকছে। প্রত্যেক মডিউল শেষে ফাইনাল কুইজ আছে। আর প্রত্যেকটা প্রজেক্টের পর একটা করে টেক-এওয়ে হোমওয়ার্ক আছে। <br> <br>
+
+                    এই কোর্স ফলো করে কেউ যদি ওয়েব ডেভেলপার না হতে পারে, দুনিয়ার আর কেউ তাকে ওয়েব ডেভেলপার বানাতে পারবে না।</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- course-Specialty -->
+      <section class="specialty-section">
+        <div class="container section-container">
+          <div class="section-titles d-flex justify-content-between align-items-center">
+            <div class="section-item-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-star mx-5 star-icon" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg>
+              <p class="star-icon mt-2">এই কোর্সের বিশেষত্ব কি?</p>
+            </div>
+            <div class="section-item-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-pencil-square mx-5 mb-2" viewBox="0 0 16 16">
+                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+              </svg>
+              <p>এই কোর্স কিভাবে চলবে?</p>
+            </div>
+          </div>
+          <div class="card-section">
+            <div class="row">
+              <div class="col-3">
+                <div class="card card-bodys pt-3" style="width: 16rem; height: 20rem;">
+                  <img src="	https://web.programming-hero.com/public/1607429634267.png" class="card-img-top card-images" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title card-titles">এইটা কমপ্লিট ওয়েব ডেভেলপমেন্ট এর কোর্স:</h5>
+                    <p class="card-text card-texts">শূন্য থেকে একজন জুনিয়র ওয়েব ডেভেলপার হিসেবে চাকরি পাওয়ার জন্য যা যা লাগে তার সবকিছুই ধরে ধরে শিখানো</p>
+                    <a href="#" class="btn button-texts">আরও দেখুন</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card card-bodys pt-3" style="width: 16rem; height: 20rem;">
+                  <img src="https://web.programming-hero.com/public/1607429725146.png" class="card-img-top card-images" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title card-titles">আনলিমিটেড সাপোর্ট:</h5>
+                    <p class="card-text card-texts">কোর্স চলাকালীন সময়ে ২৪ ঘন্টার মধ্যে তোমার যেকোন প্রশ্নের উত্তর দেয়া হবে (ছুটির দিন বাদে)। পেঁচগি মার</p>
+                    <a href="#" class="btn button-texts mt-3">আরও দেখুন</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card card-bodys pt-3" style="width: 16rem; height: 20rem;">
+                  <img src="https://web.programming-hero.com/public/1607430022157.png" class="card-img-top card-images" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title card-titles">স্পেশাল ইন্টারভিউ প্রিপারেশন গ্রূপ:</h5>
+                    <p class="card-text card-texts">যারা ডেইলি ডেইলি কাজ করবে। প্রতিদিন ৬ থেকে ৮ ঘন্টা সময় দিবে। জানপ্রাণ দিয়ে সিরিয়াসভাবে কোর্স নির্দিষ</p>
+                    <a href="#" class="btn button-texts">আরও দেখুন</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card card-bodys pt-3" style="width: 16rem; height: 20rem;">
+                  <img src="https://web.programming-hero.com/public/1623043528965.png" class="card-img-top card-images" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title card-titles">জব প্লেসমেন্ট কোচ:</h5>
+                    <p class="card-text card-texts">যারা SCIC তে সুযোগ পাবে। এবং সেটা ঠিক মতো শেষ করবে আরো ৪ থেকে ৬ সপ্তাহ লেগে থাকবে। তাদের আরো পার্সোন</p>
+                    <a href="#" class="btn button-texts mt-3">আরও দেখুন</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-3">
+                <div class="card card-bodys pt-3" style="width: 16rem; height: 20rem;">
+                  <img src="https://web.programming-hero.com/public/1623043584898.png" class="card-img-top card-images" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title card-titles">লাইভ কনচেপচুয়াল সেশন:</h5>
+                    <p class="card-text card-texts">শিখতে দুই-একটা কনসেপ্ট প্রথম ধাক্কায় সবার কাছে ক্লিয়ার নাও হতে পারে। এইটা খুবই স্বাভাবিক। এইটা নিয়ে</p>
+                    <a href="#" class="btn button-texts mt-3">আরও দেখুন</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card card-bodys pt-3" style="width: 16rem; height: 20rem;">
+                  <img src="	https://web.programming-hero.com/public/1623043653417.png" class="card-img-top card-images" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title card-titles">Advance ক্রাশ কোর্স (ACC):</h5>
+                    <p class="card-text card-texts">প্রোগ্রামিং হিরোতে তুমি জাস্ট একটা কোর্স এ এনরোল করতেছো না। বরং লাইফ লং ওয়েব ডেভেলপমেন্ট শেখার মিশনে</p>
+                    <a href="#" class="btn button-texts">আরও দেখুন</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card card-bodys pt-3" style="width: 16rem; height: 20rem;">
+                  <img src="https://web.programming-hero.com/public/1623043713790.png" class="card-img-top card-images" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title card-titles">অফলাইন ভিডিও দেখার সুযোগ</h5>
+                    <p class="card-text card-texts">তোমার ব্রডব্যান্ড নাই! মোবাইল ডাটা বা এমবি কিনে ভিডিও দেখতে হয়? একই ভিডিও বারবার দেখার জন্য যেন ইন্ট</p>
+                    <a href="#" class="btn button-texts">আরও দেখুন</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card card-bodys pt-3" style="width: 16rem; height: 20rem;">
+                  <img src="	https://web.programming-hero.com/public/1623043766815.png" class="card-img-top card-images" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title card-titles">ইন্টারন্যাশনাল জব প্লেসমেন্ট:</h5>
+                    <p class="card-text card-texts">গ্লোবালাইজেশন এর যুগে তোমার জব প্লেসমেন্ট এর টার্গেট কেন শুধু বাংলাদেশ কেন্দ্রিক হবে? বরং দুনিয়ার যে</p>
+                    <a href="#" class="btn button-texts">আরও দেখুন</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- course-overviw -->
+      <section>
+        <div class="container">
+          <h3 class="section-title text-center">কোর্সে যা কিছু আছে</h3>
+          <div class="row mt-5 mb-5">
+            <div class="col-6 course-overviw-1">
+              <img src="images/bach-4.png" alt="">
+              <button class="btn rounded-pill course-overviw-btn mt-2" type="button">
+                <span class="button-text">Continue Course</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-arrow-right-circle-fill indicator overviw-indicator"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="col-6 course-overviw-2 mx-4 scroll-bar">
+              <h5>Module 0: Orientation. How to get ready for this course</h5>
+              <br>
+              <h5>Module 1: Learn and Explore HTML as a Beginner</h5>
+              <br>
+              <h5>Module 2: Learn and Explore CSS as a Beginner</h5>
+              <br>
+              <h5>Module 3: Git, source control, GitHub and hosting</h5>
+              <br>
+              <h5>Module 4: Build a beautiful and professional portfolio website</h5>
+              <br>
+              <h5>Module 5: Personal website, build a brand new website</h5>
+              <br>
+              <h5>Module 6: HTML 5 Semantic tags, audio, video, table, form</h5>
+              <br>
+              <h5>Module 7: CSS3 overflow, transition, transform, flexbox, grid layout</h5>
+              <br>
+              <h5>Module 8: Learn and Explore Bootstrap</h5>
+              <br>
+              <h5>Module 9: Develop an e-commerce website using Bootstrap</h5>
+              <br>
+              <h5>Module 9.5: Hot Gadgets, e-commerce website by yourself</h5>
+              <br>
+              <h5>Module 10: Landing Page Milestone Assignment</h5>
+              <br>
+              <h5>Module 11: CSS Bonus Content</h5>
+              <br>
+              <h5>Module 12: Getting started with JavaScript</h5>
+              <br>
+              <h5>Module 13: JavaScript Fundamental Concepts</h5>
+              <br>
+              <h5>Module 14: Apply Javascript Concepts</h5>
+              <br>
+              <h5>Module 15: JavaScript Coding Problems, Simple Interview Questions</h5>
+
+              <h5>Module 16: Assignment</h5>
+
+              <h5>Module 17: Developer Productivity, VS Code Tips &amp; Tricks</h5>
+
+              <h5>Module 18: How Javascript Works &amp; DOM</h5>
+
+              <h5>Module 19: Function, addEventListener, Event bubble</h5>
+
+              <h5>Module 20: Pioneer Bank, develop a simple bank website</h5>
+
+              <h5>Module 21: Revisit Javascript and work on Shopping Cart</h5>
+
+              <h5>Module 22: Assignment 4</h5>
+
+              <h5>Module 23: Modern JavaScript, ES6, ES2015, ECMASCRIPT 2015</h5>
+
+              <h5>Module 24: Intermediate JavaScript, Interview Questions </h5>
+
+              <h5>Module 25: API JSON, Server, Data load, dynamic website, http</h5>
+
+              <h5>Module 26: Object Mastering, Interview Question</h5>
+
+              <h5>Module 27: Assignment-5 </h5>
+
+              <h5>Module 27: How Browser Works, browser api and methods</h5>
+
+              <h5>Module 28: JavaScript debug, web debug, dev tool mastering</h5>
+
+              <h5>Module 29: API practice Problem</h5>
+
+              <h5>Module 30: Assignment -6</h5>
+
+              <h5>Module 31: Modern Front-end core concepts</h5>
+
+              <h5>Module 32: React Core Concepts, JSX, props, state</h5>
+
+              <h5>Module 33: How React works, Recap React Concepts</h5>
+
+              <h5>Module 34: Simple React SPA with Multiple Components</h5>
+
+              <h5>Module 35: React Assignment 7 [course ]</h5>
+
+              <h5>Module 36:  React Bootstrap, Material UI, Axios, Rechart</h5>
+
+              <h5>Module 37: React Routing, State management</h5>
+
+              <h5>Module 38: More Router, React Devtool, conditional format</h5>
+
+              <h5>Module 39: Context API</h5>
+
+              <h5>Module 40: assignment 8</h5>
+
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- faq-section -->
+
+      <section class="faq-section">
+        <h3 class="section-title text-center text-white">কোর্স সম্পর্কিত সাধারণ জিজ্ঞাসা</h3>
+
+        <div class="container d-flex row faq-body">
+          <div class="col-7 accordion accordion-flush acordiar-body" id="accordionFlushExample">
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  এই কোর্স কাদের জন্য?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"></div> যারা ওয়েব ডেভেলপার হতে চায়। যারা একদম শূন্য থেকে শুরু করে শেষ পর্যন্ত ওয়েব ডেভেলপমেন্ট শিখে তারপর ওয়েব ডেভেলপার হিসেবে কোন সফটওয়্যার কোম্পানিতে চাকরি করতে চায়, তাদের জন্য। যারা প্রোগ্রামিং বা ওয়েব ডেভেলপমেন্ট সম্পর্কে তেমন কিছুই জানে না, তাদের জন্য। এমনকি যারা চার বছর CSE পড়েও কিভাবে কি করবে দিশা করতে পারতেছে না, গুছিয়ে তেমন কিছু শিখেনি, তারাও এই কোর্স থেকে কমপ্লিট ওয়েব ডেভেলপমেন্ট শিখে চাকরিতে এপ্লাই করতে পারবে। 😀
+              </div>
+            </div>
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  এই কোর্স শুরু করার আগে আমার কী কী পূর্ব অভিজ্ঞতা থাকা দরকার?
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">আমরা যেহেতু একদম শূন্য থেকে শেখাচ্ছি। তাই তোমাকে আগে থেকে তেমন কিছু জানা লাগবে না। তবে তোমার হাতে যদি সময় থাকে তাহলে এই তিনটা কাজ করে ফেলতে পারো। 
+                  ১.  ভিডিও দেখে দেখে জিনিসগুলো মাথায় ঢুকানোর জন্য একটুখানি ব্রেনের খালি জায়গা রাখতে হবে।
+                  ২. কোর্স এ জয়েন করলেই অটো ওয়েব ডেভেলপার হয়ে যাবে না। হার্ডওয়ার্ক করার, লেগে থাকার মেন্টালিটি থাকতে হবে। 
+                  ৩. কোথাও আটকে গেলে হেল্প চাওয়ার মেন্টালিটি এবং লেগে থাকার ইচ্ছা রাখতে হবে।</div>
+              </div>
+            </div>
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                  কোর্সের মধ্যে কী কী আছে ?
+                </button>
+              </h2>
+              <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">সেটা কোর্স কারিকুলাম দেখলেই বুঝতে পারবে। তবে ছোট করে বললে, বলা যায়: বর্তমান সময়ে একজন সিরিয়াস ওয়েব ডেভেলপার হওয়ার জন্য যা যা লাগে, তার সবই আছে এই কোর্সে। যেমন ধরো HTML, CSS থেকে শুরু করে bootstrap, JavaScript, Git, ES6, REST API, server, JSON তো আছেই। তার সাথে সাথে আছে বর্তমান সময়ে সবচেয়ে বেশি চাকরি যে ফ্রেমওয়ার্ক সেই React, advanced React দিয়ে কমপ্লিট ওয়েবসাইট বানানোর সিস্টেম আছে। বাড়তি হিসেবে আছে node, database (mongodb), debug, problem solving, interview questions সহ আরো অনেক জিনিস আছে। আর পুরা কোর্সে তোমাকে ১১টা ওয়েবসাইট করে দেখানো হবে। আরো ১১টা ওয়েবসাইট থাকবে তোমার হোমওয়ার্ক হিসেবে। এই পুরা জিনিস কোন রকমে শেষ করতে পারলে, একজন উন্নতমানের জুনিয়র ওয়েব ডেভেলপার না হয়ে উপায় থাকবে না। 😀</div>
+              </div>
+            </div>
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFabuke" aria-expanded="false" aria-controls="flush-collapseFabuke">
+                  কোর্সের ভিডিও গুলো কিভাবে পাবো?
+                </button>
+              </h2>
+              <div id="flush-collapseFabuke" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">কোর্সের ভিডিও গুলো প্রি-রেকর্ড থাকবে। তুমি একাউন্ট খুলে এই কোর্সে এনরোল করলে। ভিডিওগুলো কোর্স শুরু হওয়ার পরে থেকে প্রতিদিন একটা করে মডিউল দেয়া হবে। প্রত্যেকটা মডিউলে সাধরনত ১০ থেকে ১২ টা ভিডিও থাকে। এই ভিডিওগুলো যেদিন রিলিজ দেয়া হয়ে সেই দিনের মধ্যে তোমাকে দেখে ফিনিশ করতে হবে। তাই সেই হিসেবে কোর্সের জন্য প্রতিদিন ডেডিকেটেড সময় রাখতে হবে। এবং সেই সময়ের মধ্যে তুমি চাইলে শুয়ে-বসে, দাঁড়িয়ে-হেলিয়ে, পা দুলিয়ে, কোমর নাচিয়ে, কিংবা খাটের তলায় লুকিয়েও ভিডিও দেখতে পারবে।</div>
+              </div>
+            </div>
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFabuk" aria-expanded="false" aria-controls="flush-collapseFabuk">
+                  এই কোর্স কমপ্লিট করতে কতদিন সময় লাগবে?
+                </button>
+              </h2>
+              <div id="flush-collapseFabuk" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">তুমি যদি প্রতিদিন ১ থেকে দেড় ঘন্টা ধরে ভিডিও দেখো, তার সাথে সাথে এক্সট্রা ৪ থেকে ৬ ঘন্টা প্রাকটিস করো, তাহলে তোমার তিন মাসের মতো সময় লাগবে। তবে মাঝে মধ্যে হোমওয়ার্ক আর টেক এওয়ে প্রজেক্ট এর জন্য বাড়তি সময় বরাদ্ধ রাখতে হবে। হার্ডওয়ার্ক করার মেন্টালিটি নিয়ে আসতে হবে। ফাঁকিবাজি বা শর্টকাট করার কোন উপায় নাই।</div>
+              </div>
+            </div>
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFaruk" aria-expanded="false" aria-controls="flush-collapseFaruk">
+                  কোর্সটি করতে শিক্ষাগত ব্যাকগ্রাউন্ড কেমন থাকা লাগবে?
+                </button>
+              </h2>
+              <div id="flush-collapseFaruk" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">আমরা কোর্সটি এমনভাবে সাজিয়েছি যেখানে একাডেমিক ব্যাকগ্রাউন্ড ম্যাটার করে না। তুমি যেকোনো একাডেমিক ব্যাকগ্রাউন্ড থেকে এই কোর্সটি করতে পারবে। চাইলে ভার্সিটির স্টুডেন্ট, কলেজের স্টুডেন্ট, চাকরিজীবি, বেকার, প্রেমিক, পলাতক প্রেমিক, এমনকি ফোন ধরে না এমন প্রেমিকা সবাই যাতে শিখতে পারে সেজন্য একদম শূন্য থেকে শুরু করা হয়েছে।</div>
+              </div>
+            </div>
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseShila" aria-expanded="false" aria-controls="flush-collapseShila">
+                  আমার কি কি জিনিস লাগবে?
+                </button>
+              </h2>
+              <div id="flush-collapseShila" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">প্রথমত লাগবে ডেডিকেটেড সময়। প্রতিদিন মাস্ট ৬-৮ ঘন্টা। সম্ভব হলে ৮-১০ঘন্টা( সময় না দিতে পারলে। হার্ডওয়ার্ক করার ইচ্ছা না থাকলে কোর্সে এনরোল করে কোন লাভ হবে না) দ্বিতীয়ত লাগবে একটা ল্যাপটপ বা একটা কম্পিউটার (যেখানে node, Visual Studio Code টাইপের সফটওয়্যার ইনস্টল করা যায়) আর তৃতীয়ত লাগবে মিনিমাম ২-১০ এমবিপিএস এর ইন্টারনেট। ব্রডব্যান্ড হলেই ভালো যাতে কোর্সের ভিডিও ভালোভাবে দেখা যায়। প্রফেশনাল ওয়েব ডেভেলপার হতে হলে মিনিমাম ৩ মাস সিরিয়াস হার্ডওয়ার্ক এর কথা মাথায় রেখে নামতে হবে। </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSadia" aria-expanded="false" aria-controls="flush-collapseSadia">
+                  এই কোর্সটা ফ্রি না কেন?	
+                </button>
+              </h2>
+              <div id="flush-collapseSadia" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">এই কোর্সটা জাস্ট ভিডিও দেখার কোর্স না। কারণ এই কোর্সের পিছনে সব মিলিয়ে ৩০ জন প্রফেশনাল ডেভেলপার করছে। তোমার ১১টা এসাইনমেন্ট দেখবে। এসাইনমেন্ট এর মার্কস প্লাস ফিডব্যাক দিবে। আরো সাতজন ওয়েব ডেভেলপার থাকবে যারা তোমার যেকোন প্রশ্নের উত্তর ২৪ ঘন্টার মধ্যে দেয়ার জন্য রেডি থাকবে। তোমার কোড এ সমস্যা হলে সেটা স্ক্রীনশেয়ার করে সলভ করে নেয়ার জন্য ডেডিকেটেড ডেভেলপার থাকবে। এছাড়াও কোর্সের ওয়েবসাইট বানানোর জন্য ডেভেলপার, ভিডিও এডিটর, কোর্স মডারেটর, লাইভ কন্সেপচুয়াল সেশন, জব প্লেসমেন্ট সাপোর্ট, সব মিলিয়ে যতজন লোক কাজ করে তাদের সংসার তো আর ফ্রি ফ্রি চলতে পারবে না। সেজন্য এই কোর্সে নূন্যতম একটা ফি আমাদের রাখতেই হচ্ছে। </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                  কোর্স ফি ম্যানেজ করতে পারছি, কিন্তু সেটা দিতে সমস্যা হচ্ছে আমি কি করবো?
+                </button>
+              </h2>
+              <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">কোন টেনশন নাই। এখনই তোমার সমস্যা সম্পর্কে বিস্তারিত web@programming-hero.com এই ইমেইলে পাঠিয়ে দাও। অথবা আমাদের অফিসিয়াল নাম্বারে কল করে জানাও। আমরা ঘুমিয়ে না থাকলে সঙ্গে সঙ্গেই রিপ্লাই দিবো। সর্বোচ্চ ২৪ ঘন্টার মধ্যে উত্তর না পেলে, এই ইমেইল ওয়ালার খবর আছে।	
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTens" aria-expanded="false" aria-controls="flush-collapseTens">
+                  কোর্স শেষ করার পর চাকরি কিভাবে পাব?	
+                </button>
+              </h2>
+              <div id="flush-collapseTens" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">একটা জিনিস ভালো করে খেয়াল করো। আমরা কিন্তু চাকরির গ্যারান্টি দিচ্ছি না। আমরা বলতেছি। তুমি মেইন কোর্স অনটাইমে ভালোভাবে ফিনিশ করলে তুমি SCIC তে যাবে। জব, ইন্টারভিউ রিলেটেড স্পেশাল ট্রেনিং পাবে। সেখানে হার্ডওয়ার্ক করলে আমাদের চারজন জব প্লেসমেন্ট টিম মেম্বার বিভিন্ন কোম্পানিতে তোমার সিভি/রেজুমি ফরওয়ার্ড করবে। সেই কোম্পানি তোমাকে ইন্টারভিউতে ডাকবে কি ডাকবে না। সেটা তাদের সিদ্ধান্ত। আবার ইন্টারভিউতে ডাকলে তোমাকে চাকরি দিবে কি দিবে না সেটা তাদের সিদ্ধান্ত। আমাদের দিক থেকে আমরা এইটুক কমিট করতেছি-- তুমি লেগে থাকলে আমরা তোমাকে হেল্প করবো। গাইড করবো। আমাদের কানেকশনগুলোতে তোমার সিভি ফরওয়ার্ড কর </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseAbdullah" aria-expanded="false" aria-controls="flush-collapseAbdullah">
+                  আপনাদের কোর্স থেকে কি সবাই চাকরি পায়? 
+                </button>
+              </h2>
+              <div id="flush-collapseAbdullah" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">না। ১০০% সবাই চাকরি পায় না। তবে যারা মেইন কোর্স ফিনিশ করে। এবং SCIC ঠিক মতো ফিনিশ করে তাদের ৭০% চাকরি বা ইন্টার্ন পেয়ে যায়। বাকি যারা থাকে তাদের কেউ কেউ হয়তো ভার্সিটিতে প্রথম দিকে বা স্কুল কলেজে এবং তারা এখন চাকরি বা ইন্টার্ন খুজতেছে না। তবে যারা অনটাইমে কোর্স ফিনিশ করতে পারে না। তাদের জন্যও আমাদের সাপোর্ট থাকে এবং এদের থেকেও কেউ কেউ মাঝে মধ্যে চাকরি বা ইন্টার্ন পেয়ে যায়।</div>
+              </div>
+            </div>
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                  কোর্স ফলো করতে গিয়ে কোথাও আটকে গেলে কি করবো ?
+                </button>
+              </h2>
+              <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">আমরা কোর্সের জন্য একটা সিক্রেট ফেইসবুক গ্রূপ তৈরি করেছি। যেখানে আমি থাকবো, আমাদের সাতজন প্রফেশনাল ওয়েব ডেভেলপার থাকবেন, তোমাকে সাপোর্ট করার জন্য। আমাদের টার্গেট হচ্ছে--২৪ ঘন্টার মধ্যে তোমার সব প্রশ্নের উত্তর দেয়া। বেশিরভাগ সময় ইনস্ট্যান্ট উত্তর দেয়া হয়। গড়ে ৬-৮ ঘন্টার মধ্যে সব উত্তর পেয়ে যাবে। তাছাড়া লিখে কোডের ভিতরের প্রবলেম সলভ করতে না পারলে (শুক্রবার বাদে) প্রতিদিন দুই-তিনটা মিট সেশন থাকবে। যেখানে তুমি স্ক্রিনশেয়ার করে তোমার প্রবলেম সলভ করতে পারবে। আর কি লাগে? 😉  </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                  কোর্সের কনটেন্ট কি ফাইনাল? 
+                </button>
+              </h2>
+              <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">স্টুডেন্টদের ফিডব্যাক এবং যারা চাকরি পাচ্ছে তাদের ফিডব্যাক অনুসারে আমরা নিত্য নতুন মডিউল যোগ করি।  </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                  আমি ফুল টাইম চাকরি করি আমার কি এই কোর্স করতে পারবো ? 
+                </button>
+              </h2>
+              <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">যদি আমাদের কোর্সের ফ্লো সাথে ফিনিশ করতে চাও এবং SCIC তে যেতে চাও-- তাহলে তোমার তেল বের হয়ে যাবে। কারণ ডেইলি ডেইলি ৬ ঘন্টা সময় না দিলে বা ছুটির দিনে বাড়তি সময় না দিলে আমাদের কোর্সের কনটেন্ট, এসাইনমেন্ট, প্রাকটিস প্রবলেম ফিনিশ করতে পারবে না। কোর্স এ আমরা যত ফ্যাসিলিটি দিচ্ছি তা তুমি নিতে পারবে না। তাই আমি বলবো এক্সট্রিম হার্ডওয়ার্ক করে লেগে থাকতে পারবে সেই মেন্টালিটি নিয়ে তুমি আসতে পারো।  </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  এই কোর্সে কি WordPress বা Freelancing সম্পর্কে কিছু আছে?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">এই কোর্সে WordPress বা freelancing রিলেটেড সরাসরি কিছু নাই। কারণ, এই কোর্সের উদ্দেশ্য হচ্ছে সফটওয়্যার কোম্পানিতে ওয়েব ডেভেলপার বলতে যেটা বুঝানো হয় সেটা হতে চায় তাদের জন্য। এছাড়া এডভান্সড লেভেলে ওয়ার্ডপ্রেস কাস্টমাইজ করতে গেলে HTML, CSS, bootstrap, JavaScript, এমনকি React ও জানতে হয়। সেগুলা এই কোর্স থেকে শিখতে পারবে। তবে freelancing বা WordPress কে এই কোর্স হাইলাইট করা হয়নি। 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-2">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  এইগুলা ছাড়াও আমার আরো একটা প্রশ্ন আছে। সেটা কোথায় জিজ্ঞেস করবো ?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">কোন টেনশন নাই। তোমার যত প্রশ্ন আছে সেগুলা মনের মাধুরী মিশিয়ে web@programming-hero.com এ পাঠিয়ে দাও। আমরা যত দ্রুত সম্ভব রিপ্লাই দিয়ে দিবো। </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 colam-5">
+            <img src="https://web.programming-hero.com/static/media/thinker.a1f176d5.png" alt="">
+          </div>
+        </div>
+      </section>
+      <!-- project-section -->
+      <section class="project-section">
+        <div class="container">
+          <h3 class="section-title text-center py-4">এই ১১ টা প্রোজেক্ট তুমি করবে</h3>
+        <p class="text-center project-pragra">প্রোগ্রামিং কনসেপ্ট, স্কিল শেখানোর পাশাপাশি আমরা আরও বাড়তি ৫ টা প্রোজেক্ট করে দেখিয়ে দিবো তুমি এই ১১ টা প্রোজেক্ট যেনও নিজে করতে পারো। কেউ এই ১১টা প্রজেক্ট বুঝে বুঝে করতে পারলে তাকে আর কেউ ঠেকাতে পারবে না।</p>
+        </div>
+        <div class="project-caro container">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://web.programming-hero.com/public/1607430579419.png" class="d-block w-100 carosol-image" alt="...">
+                <div class="d-flex mt-4">
+                  <button type="button" class="btn btn-danger mx-1 rounded-pill px-3">HTML</button>
+                  <button type="button" class="btn btn-primary mx-1 rounded-pill px-3">CSS</button>
+                  <button type="button" class="btn btn-info mx-1 rounded-pill px-3">Bootstrap</button>
+                </div>
+                <h4 class="mt-2">Hot Gadget e-commerce Website</h4>
+                <p class="mt-2 caro-text">জাস্ট দুই দিনে bootstrap নামক দুনিয়ার সবচেয়ে পপুলার CSS ফ্রেমওয়ার্ক শিখে একটা e-commerce সাইটের ল্যান্ডিং পেইজ ডেভেলপ করে ফেলবে তুমি। </p>
+              </div>
+              <div class="carousel-item">
+                <img src="https://web.programming-hero.com/public/1607430639533.png" class="d-block w-100 carosol-image" alt="...">
+                <div class="d-flex mt-4">
+                  <button type="button" class="btn btn-danger mx-1 rounded-pill px-3">React</button>
+                  <button type="button" class="btn btn-primary mx-1 rounded-pill px-3">Node</button>
+                  <button type="button" class="btn btn-info mx-1 rounded-pill px-3">MongoDB</button>
+                  <button type="button" class="btn btn-success mx-1 rounded-pill px-3">Heroku</button>
+                </div>
+                <h4 class="mt-2">Creative Agency</h4>
+                <p class="mt-2 caro-text">ক্রিয়েটিভ এজেন্সি একটি পরিষেবা বিক্রয় ওয়েবসাইট যেখানে ক্লায়েন্ট পরিষেবাগুলি অর্ডার করতে পারবে </p>
+              </div>
+              <div class="carousel-item">
+                <img src="https://web.programming-hero.com/public/1607430755490.png" class="d-block w-100 carosol-image" alt="...">
+                <div class="d-flex mt-4">
+                  <button type="button" class="btn btn-danger mx-1 rounded-pill px-3">HTML</button>
+                  <button type="button" class="btn btn-primary mx-1 rounded-pill px-3">CSS</button>
+                  <button type="button" class="btn btn-info mx-1 rounded-pill px-3">Basic React</button>
+                  <button type="button" class="btn btn-success mx-1 rounded-pill px-3">Debugging</button>
+                </div>
+                <h4 class="mt-2">Hard Rock Music</h4>
+                <p class="mt-2 caro-text">কিভাবে CRUD অপারেশন করে API ইউজ করতে হয়। GET POST রিকুয়েস্ট পাঠাতে হয়। সেগুলা শিখবে। একদম ভ্যানিলা জাভাস্ক্রিপ্ট দিয়ে।</p>
+              </div>
+              <div class="carousel-item">
+                <img src="https://web.programming-hero.com/public/1607430814808.png" class="d-block w-100 carosol-image" alt="...">
+                <div class="d-flex mt-4">
+                  <button type="button" class="btn btn-primary mx-1 rounded-pill px-3">React</button>
+                  <button type="button" class="btn btn-warning mx-1 rounded-pill px-3">React Router</button>
+                </div>
+                <h4 class="mt-2">Volunteer Network</h4>
+                <p class="mt-2 caro-text">ভলান্টিয়ার ম্যানেজ করার সিম্পল একটা ওয়েবসাইট। যেখানে কেউ ভলান্টিয়ার হতে চাইলে বিভিন্ন ভলান্টিয়ার কাজ থেকে সিলেক্ট করতে পারবে। বুকিং দিতে পারবে। </p>
+              </div>
+              <div class="carousel-item">
+                <img src="	https://web.programming-hero.com/public/1607430910532.png" class="d-block w-100 carosol-image" alt="...">
+                <div class="d-flex mt-4">
+                  <button type="button" class="btn btn-danger mx-1 rounded-pill px-3">React</button>
+                  <button type="button" class="btn btn-primary mx-1 rounded-pill px-3">React Router</button>
+                  <button type="button" class="btn btn-info mx-1 rounded-pill px-3">Material UI</button>
+                </div>
+                <h4 class="mt-2">Travel Guru</h4>
+                <p class="mt-2 caro-text">একটা ট্রাভেলিং ওয়েবসাইট। যেখানে তুমি কোন ডেস্টিনেশনে যাবে সেই অনুসারে বুক করতে পারবে। রাউটিং প্রাকটিস করবে। </p>
+              </div>
+              <div class="carousel-item">
+                <img src="https://web.programming-hero.com/public/1607431183893.png" class="d-block w-100 carosol-image" alt="...">
+                <div class="d-flex mt-4">
+                  <button type="button" class="btn btn-danger mx-1 rounded-pill px-3">React</button>
+                  <button type="button" class="btn btn-primary mx-1 rounded-pill px-3">React Router</button>
+                  <button type="button" class="btn btn-info mx-1 rounded-pill px-3">Firebase</button>
+                  <button type="button" class="btn btn-success mx-1 rounded-pill px-3">Heroku</button>
+                </div>
+                <h4 class="mt-2">Red Onion (Restaurant website)</h4>
+                <p class="mt-2 caro-text">একটা রেস্টুরেন্ট এর ওয়েবসাইট এর মেইন জিনিস বানাবে তুমি। যেখানে মেনু থাকবে। খাবারের দাম থাকবে। কার্টে খাবার সিলেক্ট করতে পারবে। অর্ডার প্লেস করতে পারবে। </p>
+              </div>
+              <div class="carousel-item">
+                <img src="https://web.programming-hero.com/public/1607431271223.png" class="d-block w-100 carosol-image" alt="...">
+                <div class="d-flex mt-4">
+                  <button type="button" class="btn btn-danger mx-1 rounded-pill px-3">React</button>
+                  <button type="button" class="btn btn-primary mx-1 rounded-pill px-3">React Router</button>
+                  <button type="button" class="btn btn-info mx-1 rounded-pill px-3">Firebase</button>
+                  <button type="button" class="btn btn-success mx-1 rounded-pill px-3">Heroku</button>
+                </div>
+                <h4 class="mt-2">Doctors Portal</h4>
+                <p class="mt-2 caro-text">রোগী হিসেবে ডাক্তারের চেম্বারে গিয়ে এপয়েন্টমেন্ট সেট করা। আবার ডাক্তার হিসেবে এপয়নমেন্ট লিস্ট দেখা। প্রেসক্রিপশন লেখা রিলেটেড প্রজেক্ট ডেভেলপ করবে।</p>
+              </div>
+              <div class="carousel-item">
+                <img src="	https://web.programming-hero.com/public/1607431340986.png" class="d-block w-100 carosol-image" alt="...">
+                <div class="d-flex mt-4">
+                  <button type="button" class="btn btn-danger mx-1 rounded-pill px-3">React</button>
+                  <button type="button" class="btn btn-primary mx-1 rounded-pill px-3">React Router</button>
+                  <button type="button" class="btn btn-info mx-1 rounded-pill px-3">Material UI</button>
+                </div>
+                <h4 class="mt-2">Power-x-gym (gym website)</h4>
+                <p class="mt-2 caro-text">একটা জিম এর ওয়েবসাইট থাকবে। সেখানে কি কি সুবিধা আছে। মেম্বারশিপ, পেমেন্ট গেটওয়ে এবং জিম নিয়ে আরো তথ্য নিয়ে একটা ওয়েবসাইট ডেভেলপ করবে তুমি।</p>
+              </div>
+              <div class="carousel-item">
+                <img src="https://web.programming-hero.com/public/1607431394800.png" class="d-block w-100 carosol-image" alt="...">
+                <div class="d-flex mt-4">
+                  <button type="button" class="btn btn-danger mx-1 rounded-pill px-3">React</button>
+                  <button type="button" class="btn btn-primary mx-1 rounded-pill px-3">Node</button>
+                  <button type="button" class="btn btn-info mx-1 rounded-pill px-3">MongoDB</button>
+                  <button type="button" class="btn btn-success mx-1 rounded-pill px-3">Google Map</button>
+                </div>
+                <h4 class="mt-2">Air CNC (Air bnb clone)</h4>
+                <p class="mt-2 caro-text">Air bnb এর মতো বিশ্বখ্যাত ওয়েবসাইট এর সিম্পল একটা ভার্সন বানাবে। যেখানে বিভিন্ন হোস্টিং অপশন গুগল ম্যাপে দেখাবে। বুকিং দেয়ার সিস্টেম থাকবে।</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- jhankar-mahbub -->
+      <section class="project-section mb-5">
+        <div class="row d-flex container jhankar-text-1">
+          <div class="col-3 mx-5">
+            <img src="https://web.programming-hero.com/public/1607429059803.png" alt="">
+          </div>
+          <div class="col-7 jhankar-text">
+            <h4>ঝংকার মাহবুব</h4>
+            <p>ঝংকার মাহবুব এক দশক ধরে প্রোগ্রমিং ও ওয়েব ডেভেলপমেন্টের সাথে জড়িত। বুয়েটের পড়ালেখা শেষ করার পর কম্পিউটার সায়েন্সে মাস্টার্স করেন আমেরিকার নর্থ ডেকোটা স্টেট ইউনিভার্সিটি। তারপর সিনিয়র ওয়েব ডেভেলপার হিসেবে দীর্ঘদিন ধরে কাজ করেছেন যুক্তরাষ্ট্রের নিলসেন কোম্পানিতে। বর্তমানে স্ত্রী কারিনা ইসলামসহ বসবাস করছেন যুক্তরাষ্ট্রের ক্যালিফোর্নিয়ার অঙ্গরাজ্যের সিলিকনভ্যালি এরিয়াতে। প্রোগ্রামিংকে সহজ, মজার ও গল্পের ছলে উপস্থাপন করা নিয়ে জনপ্রিয় তিনটা বই লিখে ফেলেছেন তিনি। বইগুলো হচ্ছে: হাবলুদের জন্য প্রোগ্রামিং, প্রোগ্রামিংয়ের বলদ টু বস, আর প্রোগ্রামিংয়ের চৌদ্দগোষ্ঠী। এছাড়াও দিক-নির্দেশনামূলক বই লিখেছেন: রিচার্জ your ডাউন ব্যাটারি ও প্যারাময় লাইফের প্যারাসিটামল। আর অবসর সময়ে, Jhankar Mahbub নামক ইউটিউব চ্যানেলে প্রোগ্রামিং ও স্টুডেন্টদেরজন্য দিক-নির্দেশনামূলক ভিডিও বানান।</p>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <button class="btn btn-danger rounded-pill slider-button bottom-button" type="button">
+          <span class="button-text">View Success Page</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-arrow-right-circle-fill indicator"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+            />
+          </svg>
+        </button>
+      </div>
+    </main>
+    
+    <!-- footer -->
+    <footer class="footer-section">
+      <div class="container d-flex mb-5">
+        <div>
+          <div class="hero-nav-icon mb-4">
+            <a href="#"><img src="images/p_hero-removebg-preview.png" alt="" /></a>
+            <a class="text-white hero-text fw-bold" href="#">Programming Hero</a>
+          </div>
+          <div class="d-flex icon-texts">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill mx-2 mt-1" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+            </svg>
+            <p> Level-4, 34, Awal Centre, Banani, Dhaka</p>
+          </div>
+          <div class="d-flex icon-texts">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill mx-2 mt-1" viewBox="0 0 16 16">
+              <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+            </svg>
+            <p> Official: web@programming-hero.com</p>
+          </div>
+          <div class="d-flex icon-texts">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill mx-2 mt-1" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+            </svg>
+            <p> Helpline : 01322810867 (Available : 09:00am to 7:00pm)</p>
+          </div>
+          <div>
+            <img src="	https://web.programming-hero.com/static/media/app-download.439edada.png" alt="">
+          </div>
+        </div>
+        <div class="pt-2 text-white mx-4">
+          <p>About us</p>
+          <p>Success</p>
+          <p>Refund policy</p>
+          <p>Terms and Conditions</p>
+          <p>Privacy Policy</p>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook mx-1" viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram mx-1" viewBox="0 0 16 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin mx-1" viewBox="0 0 16 16">
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-youtube mx-1" viewBox="0 0 16 16">
+              <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+            </svg>
+          </div>
+        </div>
+        <div class="pyment-img">
+          <img src="	https://web.programming-hero.com/static/media/ssl-commerce.1d268dce.png" alt="">
+        </div>
+      </div>
+      <p class="text-center text-white">Copyright © 2021 Programming-hero.com</p>
+    </footer>
+    <!-- bootstrap-js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+  <div class="col-5 colam-5">
+    
+  </div>
